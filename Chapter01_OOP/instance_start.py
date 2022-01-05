@@ -19,6 +19,7 @@ class Book:
         else:
             return self.price
     
+    # setter method
     def setdiscount(self, amount):
         self._discount = amount     # '_' is a private convention, since python does not have private
 
